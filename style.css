@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 20px 0;
+    border-bottom: 2px solid #444;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#battlefield {
+    position: relative;
+    height: 400px;
+    margin: 50px auto;
+    width: 80%;
+    
+    /* Background Image with URL */
+    background: url('https://qph.cf2.quoracdn.net/main-qimg-68fc04039c2c0222030756514f5247da-pjlq') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#naruto, #sasuke {
+    position: absolute;
+    width: 150px;
+    bottom: 10px;
+}
+
+#naruto {
+    left: 10px;
+}
+
+#sasuke {
+    right: 10px;
+    transform: scaleX(-1);
+}
+
+button {
+    background-color: #f76c6c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4b4b;
+}
